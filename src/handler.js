@@ -5,6 +5,9 @@ module.exports.weather = (event, context, callback) => {
   const callbackHandler = (body, statusCode = 200) => {
     const response = {
       statusCode,
+      headers: {
+        'Access-Control-Allow-Origin': 'https://miki.me.uk',
+      },
       body: JSON.stringify(body),
     };
 
