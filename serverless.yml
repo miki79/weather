@@ -1,0 +1,19 @@
+service: weather
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: eu-west-1
+  environment:
+    APP_WEATHER_KEY: ${env:APP_WEATHER_KEY}
+
+plugins:
+  - serverless-offline    
+
+functions:
+  weather:
+    handler: src/handler.weather
+    events:
+      - http:
+          path: weather
+          method: get
