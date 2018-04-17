@@ -9,10 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.85.0"
+    "aws-xray-sdk": "^1.2.0",
+    "cache-manager": "^2.9.0",
+    "cache-manager-fs": "^1.0.6"
   },
   "devDependencies": {
-    "serverless-offline": "^3.18.0"
+    "serverless": "^1.26.1",
+    "serverless-offline": "^3.20.2",
+    "serverless-plugin-tracing": "^2.0.0"
   },
   "description": ""
 }
