@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-xray-sdk": "^1.2.0",
+    "aws-xray-sdk": "^2.3.3",
     "cache-manager": "^2.9.0",
     "cache-manager-fs": "^1.0.6"
   },
