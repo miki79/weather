@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "serverless": "^1.26.1",
-    "serverless-offline": "^3.20.2",
+    "serverless-offline": "^4.10.6",
     "serverless-plugin-tracing": "^2.0.0"
   },
   "description": ""
