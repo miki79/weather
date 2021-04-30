@@ -17,7 +17,7 @@
   "devDependencies": {
     "minimist": "^1.2.5",
     "serverless": "^2.0.0",
-    "serverless-offline": "^6.0.0",
+    "serverless-offline": "^7.0.0",
     "serverless-plugin-tracing": "^2.0.0"
   },
   "description": ""
